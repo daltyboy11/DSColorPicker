@@ -67,16 +67,3 @@ extension ViewController: ColorPickerViewDelegate {
     
 }
 ```
-
-Features
-========
-
-***Core Features***
-- Specify the colors that appear in the picker
-- Animated user interactions
-- Animated data source changes
-
-***Picker Types***
-
-- **Grid**
-- **Circle**
