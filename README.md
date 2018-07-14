@@ -45,7 +45,7 @@ extension ViewController: ColorPickerViewDataSource {
             let color = UIColor(hue: CGFloat(i) / CGFloat(self.numberOfColors), saturation: 1.0, brightness: 1.0, alpha: 1.0).cgColor
             colors.append(color)
         }
-        return colors[i]
+        return colors[index]
     }
 }
 ```
