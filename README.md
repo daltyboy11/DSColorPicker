@@ -40,12 +40,8 @@ extension ViewController: ColorPickerViewDataSource {
     }
     
     func color(at index: Int) -> CGColor {
-        var colors = [CGColor]()
-        for i in 0..<16 {
-            let color = UIColor(hue: CGFloat(i) / CGFloat(self.numberOfColors), saturation: 1.0, brightness: 1.0, alpha: 1.0).cgColor
-            colors.append(color)
-        }
-        return colors[index]
+        let color = UIColor(hue: CGFloat(index) / CGFloat(self.numberOfColors), saturation: 1.0, brightness: 1.0, alpha: 1.0).cgColor
+        return color
     }
 }
 ```
