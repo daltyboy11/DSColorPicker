@@ -3,7 +3,7 @@ Lightweight views for your color picking needs.
 
 ## CocoaPods Install
 
-Add `pod 'Charts'` to your Podfile and then run `$ pod install`
+Add `pod 'DSColorPicker'` to your Podfile and then run `$ pod install`
 
 ## Usage
 
