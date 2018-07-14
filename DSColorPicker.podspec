@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "DSColorPicker is a lightweight view that acts as a color picking utility. There are two available styles: grid and circle."
 
-  s.homepage     = "http://EXAMPLE/DSColorPicker"
+  s.homepage     = "https://github.com/daltyboy11/DSColorPicker"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :path => '.' } 
+  s.source = { :git => "https://github.com/daltyboy11/DSColorPicker.git", :tag => "1.0.0" } 
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
