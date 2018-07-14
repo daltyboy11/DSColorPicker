@@ -1,0 +1,6 @@
+framework module DSColorPicker {
+  umbrella header "DSColorPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
