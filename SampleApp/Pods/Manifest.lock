@@ -2,21 +2,15 @@ PODS:
   - DSColorPicker (1.0.0)
 
 DEPENDENCIES:
-  - DSColorPicker (from `https://github.com/daltyboy11/DSColorPicker.git`, tag `1.0.0`)
+  - DSColorPicker
 
-EXTERNAL SOURCES:
-  DSColorPicker:
-    :git: https://github.com/daltyboy11/DSColorPicker.git
-    :tag: 1.0.0
-
-CHECKOUT OPTIONS:
-  DSColorPicker:
-    :git: https://github.com/daltyboy11/DSColorPicker.git
-    :tag: 1.0.0
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DSColorPicker
 
 SPEC CHECKSUMS:
-  DSColorPicker: bd0e6a6592e92c4ad5d775d1eab399e13bb35bed
+  DSColorPicker: cf38e9f42f6e4ab5f5bacbafe52b4d6e8fe4261c
 
-PODFILE CHECKSUM: 56dcbb3ac66b34ebe088187ef8ff2c8eb488eb68
+PODFILE CHECKSUM: db7cab4e810657558c40339d2f97bb618706b3cd
 
 COCOAPODS: 1.5.2

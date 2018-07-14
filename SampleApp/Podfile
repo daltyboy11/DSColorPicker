@@ -6,6 +6,6 @@ target 'SampleApp' do
   use_frameworks!
 
   # Pods for SampleApp
-	pod 'DSColorPicker', :git => 'https://github.com/daltyboy11/DSColorPicker.git', :tag => '1.0.0'
+	pod 'DSColorPicker'
 
 end
