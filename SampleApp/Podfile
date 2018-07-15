@@ -6,7 +6,7 @@ target 'SampleApp' do
   use_frameworks!
 
   # Pods for SampleApp
-	pod 'DSColorPicker'
 	pod 'TouchVisualizer'
+	pod 'DSColorPicker'
 
 end
