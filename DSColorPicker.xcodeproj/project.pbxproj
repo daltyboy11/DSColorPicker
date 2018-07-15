@@ -10,12 +10,12 @@
 		1EE6F26D20F9953E000AC884 /* DSColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE6F26B20F9953E000AC884 /* DSColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EE6F27420F99577000AC884 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F27320F99577000AC884 /* Helpers.swift */; };
 		1EE6F27620F99590000AC884 /* WedgeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F27520F99590000AC884 /* WedgeLayer.swift */; };
-		1EE6F27920F995B7000AC884 /* CircleColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F27820F995B7000AC884 /* CircleColorPickerView.swift */; };
-		1EE6F27B20F995BD000AC884 /* GridColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F27A20F995BD000AC884 /* GridColorPickerView.swift */; };
-		1EE6F28120F995D1000AC884 /* ColorPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F27D20F995D1000AC884 /* ColorPickerViewDelegate.swift */; };
-		1EE6F28220F995D1000AC884 /* GridColorPickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F27E20F995D1000AC884 /* GridColorPickerViewDataSource.swift */; };
-		1EE6F28320F995D1000AC884 /* ColorPickerViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F27F20F995D1000AC884 /* ColorPickerViewType.swift */; };
-		1EE6F28420F995D1000AC884 /* ColorPickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F28020F995D1000AC884 /* ColorPickerViewDataSource.swift */; };
+		1EE6F27920F995B7000AC884 /* DSCircleColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F27820F995B7000AC884 /* DSCircleColorPickerView.swift */; };
+		1EE6F27B20F995BD000AC884 /* DSGridColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F27A20F995BD000AC884 /* DSGridColorPickerView.swift */; };
+		1EE6F28120F995D1000AC884 /* DSColorPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F27D20F995D1000AC884 /* DSColorPickerViewDelegate.swift */; };
+		1EE6F28220F995D1000AC884 /* DSGridColorPickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F27E20F995D1000AC884 /* DSGridColorPickerViewDataSource.swift */; };
+		1EE6F28320F995D1000AC884 /* DSColorPickerViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F27F20F995D1000AC884 /* DSColorPickerViewType.swift */; };
+		1EE6F28420F995D1000AC884 /* DSColorPickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6F28020F995D1000AC884 /* DSColorPickerViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +24,12 @@
 		1EE6F26C20F9953E000AC884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EE6F27320F99577000AC884 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		1EE6F27520F99590000AC884 /* WedgeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WedgeLayer.swift; sourceTree = "<group>"; };
-		1EE6F27820F995B7000AC884 /* CircleColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleColorPickerView.swift; sourceTree = "<group>"; };
-		1EE6F27A20F995BD000AC884 /* GridColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridColorPickerView.swift; sourceTree = "<group>"; };
-		1EE6F27D20F995D1000AC884 /* ColorPickerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewDelegate.swift; sourceTree = "<group>"; };
-		1EE6F27E20F995D1000AC884 /* GridColorPickerViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridColorPickerViewDataSource.swift; sourceTree = "<group>"; };
-		1EE6F27F20F995D1000AC884 /* ColorPickerViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewType.swift; sourceTree = "<group>"; };
-		1EE6F28020F995D1000AC884 /* ColorPickerViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewDataSource.swift; sourceTree = "<group>"; };
+		1EE6F27820F995B7000AC884 /* DSCircleColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSCircleColorPickerView.swift; sourceTree = "<group>"; };
+		1EE6F27A20F995BD000AC884 /* DSGridColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSGridColorPickerView.swift; sourceTree = "<group>"; };
+		1EE6F27D20F995D1000AC884 /* DSColorPickerViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSColorPickerViewDelegate.swift; sourceTree = "<group>"; };
+		1EE6F27E20F995D1000AC884 /* DSGridColorPickerViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSGridColorPickerViewDataSource.swift; sourceTree = "<group>"; };
+		1EE6F27F20F995D1000AC884 /* DSColorPickerViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSColorPickerViewType.swift; sourceTree = "<group>"; };
+		1EE6F28020F995D1000AC884 /* DSColorPickerViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSColorPickerViewDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +75,8 @@
 		1EE6F27720F9959A000AC884 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
-				1EE6F27820F995B7000AC884 /* CircleColorPickerView.swift */,
-				1EE6F27A20F995BD000AC884 /* GridColorPickerView.swift */,
+				1EE6F27820F995B7000AC884 /* DSCircleColorPickerView.swift */,
+				1EE6F27A20F995BD000AC884 /* DSGridColorPickerView.swift */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -84,10 +84,10 @@
 		1EE6F27C20F995C6000AC884 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				1EE6F28020F995D1000AC884 /* ColorPickerViewDataSource.swift */,
-				1EE6F27D20F995D1000AC884 /* ColorPickerViewDelegate.swift */,
-				1EE6F27F20F995D1000AC884 /* ColorPickerViewType.swift */,
-				1EE6F27E20F995D1000AC884 /* GridColorPickerViewDataSource.swift */,
+				1EE6F28020F995D1000AC884 /* DSColorPickerViewDataSource.swift */,
+				1EE6F27D20F995D1000AC884 /* DSColorPickerViewDelegate.swift */,
+				1EE6F27F20F995D1000AC884 /* DSColorPickerViewType.swift */,
+				1EE6F27E20F995D1000AC884 /* DSGridColorPickerViewDataSource.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -172,13 +172,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE6F27620F99590000AC884 /* WedgeLayer.swift in Sources */,
-				1EE6F28320F995D1000AC884 /* ColorPickerViewType.swift in Sources */,
+				1EE6F28320F995D1000AC884 /* DSColorPickerViewType.swift in Sources */,
 				1EE6F27420F99577000AC884 /* Helpers.swift in Sources */,
-				1EE6F28120F995D1000AC884 /* ColorPickerViewDelegate.swift in Sources */,
-				1EE6F28220F995D1000AC884 /* GridColorPickerViewDataSource.swift in Sources */,
-				1EE6F28420F995D1000AC884 /* ColorPickerViewDataSource.swift in Sources */,
-				1EE6F27B20F995BD000AC884 /* GridColorPickerView.swift in Sources */,
-				1EE6F27920F995B7000AC884 /* CircleColorPickerView.swift in Sources */,
+				1EE6F28120F995D1000AC884 /* DSColorPickerViewDelegate.swift in Sources */,
+				1EE6F28220F995D1000AC884 /* DSGridColorPickerViewDataSource.swift in Sources */,
+				1EE6F28420F995D1000AC884 /* DSColorPickerViewDataSource.swift in Sources */,
+				1EE6F27B20F995BD000AC884 /* DSGridColorPickerView.swift in Sources */,
+				1EE6F27920F995B7000AC884 /* DSCircleColorPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

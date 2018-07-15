@@ -8,7 +8,7 @@
 
 import UIKit
 
-public final class CircleColorPickerView: UIView, DSCircleColorPickerViewType {
+public final class DSCircleColorPickerView: UIView, DSCircleColorPickerViewType {
     
     // MARK: - Properties
     

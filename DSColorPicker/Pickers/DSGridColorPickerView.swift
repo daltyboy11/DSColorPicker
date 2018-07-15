@@ -8,7 +8,7 @@
 
 import UIKit
 
-public final class GridColorPickerView: UIView, DSGridColorPickerViewType {
+public final class DSGridColorPickerView: UIView, DSGridColorPickerViewType {
     
     private struct CircleProperties {
         let color: CGColor
