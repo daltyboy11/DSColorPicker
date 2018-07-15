@@ -22,15 +22,15 @@ view.addSubview(gridColorPickerView)
 gridColorPickerView.show()
 ```
 
-![Presenting](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/show_picker.gif)
+![Presenting](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/show_picker.mov)
 
 ### Reloading a color picker
 After updating a color picker's `dataSource` in some manner, invoke `reload(animated:completion:)` to communicate the changes to the color picker.
 
 Example - Reloading the picker after changing the number of colors from 10 to 15:
 
-![Circle](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/reload_circle.gif)
-![Grid](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/reload_grid.gif)
+![Circle](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/reload_circle.mov)
+![Grid](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/reload_grid.mov)
 
 ### Providing data to the picker
 
@@ -73,4 +73,4 @@ extension ViewController: ColorPickerViewDelegate {
 }
 ```
 
-![User interaction](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/user_interaction.gif)
+![User interaction](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/user_interaction.mov)
