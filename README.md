@@ -24,6 +24,23 @@ gridColorPickerView.show()
 
 ![Presenting](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/show_picker.gif)
 
+### Handling user interaction
+Receive a notification when the user selects a color in the picker by adopting the `DSColorPickerViewDelegateProtocol`
+
+Example:
+
+```swift
+extension ViewController: DSColorPickerViewDelegate {
+    // A UIViewController subclass is the delegate for a picker view, and changes its view's background color when a color is selected by the user in a picker view.
+    func didSelect(color: UIColor, pickerView: DSColorPickerViewType) {
+        view.backgroundColor = color
+    }
+    
+}
+```
+
+![User interaction](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/user_interaction.gif)
+
 ### Reloading a color picker
 After updating a color picker's `dataSource` in some manner, invoke `reload(animated:completion:)` to communicate the changes to the color picker.
 
@@ -56,21 +73,3 @@ extension ViewController: DSColorPickerViewDataSource {
 To provide data to a `DSGridColorPickerView`, adopt the `DSGridColorPickerViewDataSource` protocol. This data source has the same requirements as the `DSColorPickerViewDataSource`, with the addition of `maxColumns`, which specifies the maximum allowable number of columns in the grid.
 
 Example - Adding colors one by one to the picker with `maxColumns` set to `4`:
-
-### Handling events
-
-Receive a notification when the user selects a color in the picker by adopting the `DSColorPickerViewDelegateProtocol`
-
-Example:
-
-```swift
-extension ViewController: DSColorPickerViewDelegate {
-    // A UIViewController subclass is the delegate for a picker view, and changes its view's background color when a color is selected by the user in a picker view.
-    func didSelect(color: UIColor, pickerView: DSColorPickerViewType) {
-        view.backgroundColor = color
-    }
-    
-}
-```
-
-![User interaction](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/user_interaction.gif)
