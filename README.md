@@ -10,14 +10,14 @@ Add `pod 'DSColorPicker'` to your Podfile and then run `$ pod install`
 To use the provided classes, `import DSColorPicker`
 
 ### Presenting the color picker
-After creating either a Grid or Circle ColorPickerView, invoke `show(animated:completion:)`. By default, the presentation is animated and the completion handler does nothing.
+After creating either a Grid or Circle DSColorPickerView, invoke `show(animated:completion:)`. By default, the presentation is animated and the completion handler does nothing.
 
 Example:
 
 In a view controller
 
 ```swift
-let gridColorPickerView = GridColorPickerView(frame: self.view.bounds, delegate: self, dataSource: self)
+let gridColorPickerView = DSGridColorPickerView(frame: self.view.bounds, delegate: self, dataSource: self)
 view.addSubview(gridColorPickerView)
 gridColorPickerView.show()
 ```
@@ -34,12 +34,12 @@ Example - Reloading the picker after changing the number of colors from 10 to 15
 
 ### Providing data to the picker
 
-Adopt the `ColorPickerViewDataSource` to provide the number of colors and color values to the picker.
+Adopt the `DSColorPickerViewDataSource` to provide the number of colors and color values to the picker.
 
 Example of a conforming view controller that provides various RGB formatted colors to the picker:
 
 ```swift
-extension ViewController: ColorPickerViewDataSource {
+extension ViewController: DSColorPickerViewDataSource {
     var numberOfColors: Int {
         return 16
     }
@@ -51,22 +51,22 @@ extension ViewController: ColorPickerViewDataSource {
 }
 ```
 
-### Providing data to a `GridColorPickerView`
+### Providing data to a `DSGridColorPickerView`
 
-To provide data to a GridColorPickerView, adopt the `GridColorPickerViewDataSource` protocol. This data source has the same requirements as the `ColorPickerViewDataSource`, with the addition of `maxColumns`, which specifies the maximum allowable number of columns in the grid.
+To provide data to a `DSGridColorPickerView`, adopt the `DSGridColorPickerViewDataSource` protocol. This data source has the same requirements as the `DSColorPickerViewDataSource`, with the addition of `maxColumns`, which specifies the maximum allowable number of columns in the grid.
 
 Example - Adding colors one by one to the picker with `maxColumns` set to `4`:
 
 ### Handling events
 
-Receive a notification when the user selects a color in the picker by adopting the `ColorPickerViewDelegateProtocol`
+Receive a notification when the user selects a color in the picker by adopting the `DSColorPickerViewDelegateProtocol`
 
 Example:
 
 ```swift
-extension ViewController: ColorPickerViewDelegate {
+extension ViewController: DSColorPickerViewDelegate {
     // A UIViewController subclass is the delegate for a picker view, and changes its view's background color when a color is selected by the user in a picker view.
-    func didSelect(color: UIColor, pickerView: ColorPickerViewType) {
+    func didSelect(color: UIColor, pickerView: DSColorPickerViewType) {
         view.backgroundColor = color
     }
     
