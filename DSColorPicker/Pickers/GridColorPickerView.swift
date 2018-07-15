@@ -8,7 +8,7 @@
 
 import UIKit
 
-public final class GridColorPickerView: UIView, GridColorPickerViewType {
+public final class GridColorPickerView: UIView, DSGridColorPickerViewType {
     
     private struct CircleProperties {
         let color: CGColor
@@ -42,8 +42,8 @@ public final class GridColorPickerView: UIView, GridColorPickerViewType {
     private var restoredLastWedgeTouched: Bool = true
     private var isTouchingAWedge: Bool = false
     
-    weak public var dataSource: GridColorPickerViewDataSource?
-    weak public var delegate: ColorPickerViewDelegate?
+    weak public var dataSource: DSGridColorPickerViewDataSource?
+    weak public var delegate: DSColorPickerViewDelegate?
     
     private var selectedColor: UIColor {
         didSet {
@@ -71,7 +71,7 @@ public final class GridColorPickerView: UIView, GridColorPickerViewType {
     
     // MARK: - Initialization
     
-    public init(frame: CGRect, delegate: ColorPickerViewDelegate, dataSource: GridColorPickerViewDataSource) {
+    public init(frame: CGRect, delegate: DSColorPickerViewDelegate, dataSource: DSGridColorPickerViewDataSource) {
         self.selectedColor = UIColor.black
         self.delegate = delegate
         self.dataSource = dataSource

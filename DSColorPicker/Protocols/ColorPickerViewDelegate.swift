@@ -11,6 +11,6 @@ import UIKit
 
 /// Adopt this protocol to be a delegate object for a color picker
 ///
-public protocol ColorPickerViewDelegate: AnyObject {
-    func didSelect(color: UIColor, pickerView: ColorPickerViewType)
+public protocol DSColorPickerViewDelegate: AnyObject {
+    func didSelect(color: UIColor, pickerView: DSColorPickerViewType)
 }
