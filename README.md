@@ -3,7 +3,7 @@ Lightweight views for your color picking needs.
 
 ## CocoaPods Install
 
-Add `pod 'Charts'` to your Podfile and then run `$ pod install`
+Add `pod 'DSColorPicker'` to your Podfile and then run `$ pod install`
 
 ## Usage
 
@@ -67,16 +67,3 @@ extension ViewController: ColorPickerViewDelegate {
     
 }
 ```
-
-Features
-========
-
-***Core Features***
-- Specify the colors that appear in the picker
-- Animated user interactions
-- Animated data source changes
-
-***Picker Types***
-
-- **Grid**
-- **Circle**
