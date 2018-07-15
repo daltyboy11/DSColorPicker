@@ -8,6 +8,7 @@
 
 import UIKit
 import DSColorPicker
+import TouchVisualizer
 
 class ViewController: UIViewController {
     
@@ -33,6 +34,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        Visualizer.start()
+        
+        numberOfColorsPickerView.dataSource = self
+        numberOfColorsPickerView.delegate = self
+        numberOfColorsPickerView.selectRow(15, inComponent: 0, animated: false)
+        
         gridColorPickerView = GridColorPickerView(frame: .zero, delegate: self, dataSource: self)
         circleColorPickerView = CircleColorPickerView(frame: .zero, delegate: self, dataSource: self)
         gridColorPickerView?.backgroundColor = UIColor.white
@@ -40,9 +47,6 @@ class ViewController: UIViewController {
         
         colorPickerSegmentedControl.selectedSegmentIndex = 0
         colorPickerSegmentedControl.addTarget(self, action: #selector(didPickColorPicker(_:)), for: .valueChanged)
-        
-        numberOfColorsPickerView.dataSource = self
-        numberOfColorsPickerView.delegate = self
         
         view.addSubview(circleColorPickerView!)
         view.addSubview(colorPickerSegmentedControl)

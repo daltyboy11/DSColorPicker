@@ -1,16 +1,20 @@
 PODS:
   - DSColorPicker (1.0.0)
+  - TouchVisualizer (3.0.2)
 
 DEPENDENCIES:
   - DSColorPicker
+  - TouchVisualizer
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - DSColorPicker
+    - TouchVisualizer
 
 SPEC CHECKSUMS:
   DSColorPicker: cf38e9f42f6e4ab5f5bacbafe52b4d6e8fe4261c
+  TouchVisualizer: dfdb77c26f1efc58d9980596742de6cf115ea37e
 
-PODFILE CHECKSUM: db7cab4e810657558c40339d2f97bb618706b3cd
+PODFILE CHECKSUM: 8535a5d44379bf19c0518848d89d7892bcf4aadb
 
 COCOAPODS: 1.5.2

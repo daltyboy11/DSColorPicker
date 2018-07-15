@@ -7,5 +7,6 @@ target 'SampleApp' do
 
   # Pods for SampleApp
 	pod 'DSColorPicker'
+	pod 'TouchVisualizer'
 
 end
