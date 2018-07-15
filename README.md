@@ -3,11 +3,11 @@ Lightweight views for your color picking needs.
 
 ## CocoaPods Install
 
-Add `pod 'DSColorPicker'` to your Podfile and then run `$ pod install`
+Add `pod 'DSColorPicker'` to your Podfile and then run `$ pod install`.
 
 ## Usage
 
-To use the provided classes, `import DSColorPicker`
+To use the provided classes, `import DSColorPicker`.
 
 ### Presenting the color picker
 After creating either a Grid or Circle DSColorPickerView, invoke `show(animated:completion:)`. By default, the presentation is animated and the completion handler does nothing.
@@ -25,7 +25,8 @@ gridColorPickerView.show()
 ![Presenting](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/show_picker.gif)
 
 ### Handling user interaction
-Receive a notification when the user selects a color in the picker by adopting the `DSColorPickerViewDelegateProtocol`
+
+Receive a notification when the user selects a color in the picker by adopting the `DSColorPickerViewDelegate` protocol.
 
 Example:
 
@@ -42,9 +43,10 @@ extension ViewController: DSColorPickerViewDelegate {
 ![User interaction](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/user_interaction.gif)
 
 ### Reloading a color picker
+
 After updating a color picker's `dataSource` in some manner, invoke `reload(animated:completion:)` to communicate the changes to the color picker.
 
-Example - Reloading the picker after changing the number of colors from 10 to 15:
+Examples:
 
 ![Circle](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/reload_circle.gif)
 ![Grid](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/reload_grid.gif)
