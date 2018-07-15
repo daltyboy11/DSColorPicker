@@ -8,7 +8,7 @@
 
 import UIKit
 
-public final class CircleColorPickerView: UIView, CircleColorPickerViewType {
+public final class DSCircleColorPickerView: UIView, DSCircleColorPickerViewType {
     
     // MARK: - Properties
     
@@ -21,8 +21,8 @@ public final class CircleColorPickerView: UIView, CircleColorPickerViewType {
     private let wedgeScaleRadiusFactor: CGFloat                     = 1.1
     private let circlePadding: CGFloat                              = 10
     
-    weak public var dataSource: ColorPickerViewDataSource?
-    weak public var delegate: ColorPickerViewDelegate?
+    weak public var dataSource: DSColorPickerViewDataSource?
+    weak public var delegate: DSColorPickerViewDelegate?
     
     private var isTouchingInCircle: Bool = false
     private var animatedLastWedgeTouched: Bool = true
@@ -68,7 +68,7 @@ public final class CircleColorPickerView: UIView, CircleColorPickerViewType {
     
     // MARK: - Initializers
     
-    public init(frame: CGRect, delegate: ColorPickerViewDelegate, dataSource: ColorPickerViewDataSource) {
+    public init(frame: CGRect, delegate: DSColorPickerViewDelegate, dataSource: DSColorPickerViewDataSource) {
         self.selectedColor = UIColor.black
         self.delegate = delegate
         self.dataSource = dataSource

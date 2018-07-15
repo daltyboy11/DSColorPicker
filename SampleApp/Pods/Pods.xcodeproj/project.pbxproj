@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00F473F0CBD754AE6F3BE3A3268FB0CE /* ColorPickerViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC574186155E586069802D86C61429 /* ColorPickerViewType.swift */; };
-		02A8F40C8B50C145262B7A0E6C0A537A /* GridColorPickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B21FD9F9480ADD0B5EA465E57D8B8E /* GridColorPickerViewDataSource.swift */; };
 		0E21858FAE1B5D50D5FFF4684ECAC227 /* UIWindow+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B7432F31578A4A9264C5B90F8E3865 /* UIWindow+Swizzle.swift */; };
 		0F43B4E4F2DA39A755CAB3F561D28300 /* Pods-SampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E34C2187030136F6DB77752E5F4911 /* Pods-SampleApp-dummy.m */; };
-		1C0E6C625AF6786E517BA9B533E3405A /* DSColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A88588AB88F7D725600336BB34C6C2 /* DSColorPicker-dummy.m */; };
+		1731F53A032D85E57D0F7376EFBBA06B /* DSColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D47D4A7D8377A15B90FE4B465CB2F8AF /* DSColorPicker-dummy.m */; };
 		2D1387828ED01556C139101C8B01E381 /* Pods-SampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E0836AB7F78D7F2563BA2715E694C8 /* Pods-SampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F65FE6FDEC4061ECD40530BF27171DB /* Visualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA93E3C333B891E48925D31E67A47E0E /* Visualizer.swift */; };
-		36E896D30476D55ABB9131584233EA24 /* ColorPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161C248298892DDA5F71600B4CC5C6EA /* ColorPickerViewDelegate.swift */; };
-		49357F84D93D464ADCC51E1A88921A77 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0AD9D211B62AC65ACA1E8B7C87FC03 /* Helpers.swift */; };
-		4975D556190159249C5846A41DCBB3AB /* WedgeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0F8BA34FB4E44119B8255CB51F8A7A /* WedgeLayer.swift */; };
 		4B533262DAA333EB22718DC7AF3C9D22 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CFAF6838350E68AB6CC257C209000 /* Configuration.swift */; };
 		4C0B4C0A0CA01F5A22636BF754A5B243 /* TouchVisualizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED37FFEC664FFA3EA2F6DDBE7E71FB29 /* TouchVisualizer-dummy.m */; };
-		57F84FB54284EC54669956B489FD2F5E /* ColorPickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD1145FC8849FA48D8F9D92834D85C6 /* ColorPickerViewDataSource.swift */; };
+		5A68AB5E3E89B554842148305E6ED1A3 /* WedgeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14B902CD966AE864599BF2AD8AA33C5 /* WedgeLayer.swift */; };
 		622D4DFF20E2403031C1B1EF770B65D2 /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E648D73B4E7C6B6975A943468D8F5 /* TouchView.swift */; };
-		798919CD8A55FEC8EEA9C19291D56593 /* GridColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB145E11ADEF9B4B052A3261038DA52 /* GridColorPickerView.swift */; };
-		7E467DDF4546794ECEAD4E9A510FDF4A /* CircleColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF94DAA4ABA4CC249AB60666574B8D5 /* CircleColorPickerView.swift */; };
+		622E6BAF76A39912304B702207317B12 /* DSGridColorPickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205A307891DC615D4EF99D995868CB12 /* DSGridColorPickerViewDataSource.swift */; };
+		93BFAD6AE6F1BAF3683C18A69422B355 /* DSColorPickerViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99CD756DCE4B0DCB77C8D876AAC0525 /* DSColorPickerViewDataSource.swift */; };
+		9A3EDD1CCF8F80200A40E4AFD48A3BB4 /* DSCircleColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129B01D71216BAE413ECA7D95868BAB9 /* DSCircleColorPickerView.swift */; };
+		A28FB056353CF4F3FC4B4D5229E6B9BD /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDDD7E2ED77C9AE3F614E5707D74875 /* Helpers.swift */; };
 		B2F37516B2743CCE0A38334A1956C6B2 /* TouchVisualizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAAB2E6C4544D26080A0D45804E9279 /* TouchVisualizer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA6B9F1BAA2D5107664B580C50B42DD9 /* DSColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9E8E16F20807C46658C67A098A25D80 /* DSColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6B9F1BAA2D5107664B580C50B42DD9 /* DSColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92296C24B5CC90396479BAD515976D8C /* DSColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4AB82BF436D6DCB731D9D25C941BB5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C6A1E123E54F721C106F425A3CD9A6EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C8DA306F99AEA381FA4CFB8F947632C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		CF5037A4032179F87ABAD846641A9BB1 /* DSColorPickerViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163066DFDAB91648CD7C19CF69D1B993 /* DSColorPickerViewType.swift */; };
+		DBB1D0328E4126549170438960C6D164 /* DSColorPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF55B86BBCAD30FF42FC6C3B295C76 /* DSColorPickerViewDelegate.swift */; };
+		E3C71365DCA9F2E1427EB1F02829D0BE /* DSGridColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C22A2623C0C36A02C4CC999669543 /* DSGridColorPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,45 +48,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14A88588AB88F7D725600336BB34C6C2 /* DSColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSColorPicker-dummy.m"; sourceTree = "<group>"; };
-		161C248298892DDA5F71600B4CC5C6EA /* ColorPickerViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerViewDelegate.swift; path = DSColorPicker/Protocols/ColorPickerViewDelegate.swift; sourceTree = "<group>"; };
+		129B01D71216BAE413ECA7D95868BAB9 /* DSCircleColorPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSCircleColorPickerView.swift; path = DSColorPicker/Pickers/DSCircleColorPickerView.swift; sourceTree = "<group>"; };
+		163066DFDAB91648CD7C19CF69D1B993 /* DSColorPickerViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSColorPickerViewType.swift; path = DSColorPicker/Protocols/DSColorPickerViewType.swift; sourceTree = "<group>"; };
 		1D51DE1B02AC6C305B76C908E870FA42 /* DSColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DSColorPicker.framework; path = DSColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		205A307891DC615D4EF99D995868CB12 /* DSGridColorPickerViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSGridColorPickerViewDataSource.swift; path = DSColorPicker/Protocols/DSGridColorPickerViewDataSource.swift; sourceTree = "<group>"; };
 		212E648D73B4E7C6B6975A943468D8F5 /* TouchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchView.swift; path = TouchVisualizer/TouchView.swift; sourceTree = "<group>"; };
 		254B60E7ED0981F8277E681A5C641FD9 /* Pods-SampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2A8CFAF6838350E68AB6CC257C209000 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = TouchVisualizer/Configuration.swift; sourceTree = "<group>"; };
 		37390762274D1CA7204BF97854A5A734 /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleApp.framework; path = "Pods-SampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DF94DAA4ABA4CC249AB60666574B8D5 /* CircleColorPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleColorPickerView.swift; path = DSColorPicker/Pickers/CircleColorPickerView.swift; sourceTree = "<group>"; };
+		3E463B8D2B505425025A8F80856B6896 /* DSColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSColorPicker.xcconfig; sourceTree = "<group>"; };
 		43E0836AB7F78D7F2563BA2715E694C8 /* Pods-SampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleApp-umbrella.h"; sourceTree = "<group>"; };
+		4507DE1271BF20BCFE8AD984B6E963AB /* DSColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DSColorPicker.modulemap; sourceTree = "<group>"; };
 		4DB8FF98D880816F82418E0AC50A56FC /* TouchVisualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TouchVisualizer.framework; path = TouchVisualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E0F8BA34FB4E44119B8255CB51F8A7A /* WedgeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WedgeLayer.swift; path = DSColorPicker/WedgeLayer.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		63D4CAC0DC2DBE1E245A053A478530C0 /* TouchVisualizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TouchVisualizer.modulemap; sourceTree = "<group>"; };
-		68E227E3A0BBEA16DBE4387C582AB685 /* DSColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DSColorPicker.xcconfig; sourceTree = "<group>"; };
-		6BD1145FC8849FA48D8F9D92834D85C6 /* ColorPickerViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerViewDataSource.swift; path = DSColorPicker/Protocols/ColorPickerViewDataSource.swift; sourceTree = "<group>"; };
+		6AA31393A6BBE7C465EABF00C3497BB0 /* DSColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSColorPicker-prefix.pch"; sourceTree = "<group>"; };
 		6E24443E07088B4F50AE4AE0CABA39FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6C22A2623C0C36A02C4CC999669543 /* DSGridColorPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSGridColorPickerView.swift; path = DSColorPicker/Pickers/DSGridColorPickerView.swift; sourceTree = "<group>"; };
 		7AAAB2E6C4544D26080A0D45804E9279 /* TouchVisualizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchVisualizer-umbrella.h"; sourceTree = "<group>"; };
-		7C0AD9D211B62AC65ACA1E8B7C87FC03 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = DSColorPicker/Helpers.swift; sourceTree = "<group>"; };
 		7F9C1B52153A73A7DC8D38CA889C05DE /* Pods-SampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-resources.sh"; sourceTree = "<group>"; };
 		91E34C2187030136F6DB77752E5F4911 /* Pods-SampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleApp-dummy.m"; sourceTree = "<group>"; };
+		92296C24B5CC90396479BAD515976D8C /* DSColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSColorPicker-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99B7432F31578A4A9264C5B90F8E3865 /* UIWindow+Swizzle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+Swizzle.swift"; path = "TouchVisualizer/UIWindow+Swizzle.swift"; sourceTree = "<group>"; };
+		A14B902CD966AE864599BF2AD8AA33C5 /* WedgeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WedgeLayer.swift; path = DSColorPicker/WedgeLayer.swift; sourceTree = "<group>"; };
+		A3EBC33A927357C53CB883FC93B23306 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AF55B86BBCAD30FF42FC6C3B295C76 /* DSColorPickerViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSColorPickerViewDelegate.swift; path = DSColorPicker/Protocols/DSColorPickerViewDelegate.swift; sourceTree = "<group>"; };
 		AE0C4D71174D2426CC932D25E179C198 /* Pods-SampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SampleApp.modulemap"; sourceTree = "<group>"; };
 		B9B43DF05AFE196C8F30EB9D8D47DBCC /* Pods-SampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-frameworks.sh"; sourceTree = "<group>"; };
-		B9E0196E5870CCFA3B2FE51835C94762 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA1548F713055EB08E671A3EA88C30BB /* DSColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DSColorPicker.modulemap; sourceTree = "<group>"; };
 		BA93E3C333B891E48925D31E67A47E0E /* Visualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visualizer.swift; path = TouchVisualizer/Visualizer.swift; sourceTree = "<group>"; };
-		C30385E67BD3AFBF23E65A621C00E3D8 /* DSColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSColorPicker-prefix.pch"; sourceTree = "<group>"; };
-		C9E8E16F20807C46658C67A098A25D80 /* DSColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		BDDDD7E2ED77C9AE3F614E5707D74875 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = DSColorPicker/Helpers.swift; sourceTree = "<group>"; };
 		CAAC90C777B1C8060FFA317199DB4287 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E596F275303D3691700B45FE3ECD0E /* TouchVisualizer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchVisualizer-prefix.pch"; sourceTree = "<group>"; };
-		D4B21FD9F9480ADD0B5EA465E57D8B8E /* GridColorPickerViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridColorPickerViewDataSource.swift; path = DSColorPicker/Protocols/GridColorPickerViewDataSource.swift; sourceTree = "<group>"; };
+		D47D4A7D8377A15B90FE4B465CB2F8AF /* DSColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DSColorPicker-dummy.m"; sourceTree = "<group>"; };
 		E04572C869A3D5AD2F9ED3F2E9ED0653 /* Pods-SampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		E281B8FF4A4CFCB2CB39EE15216FCCAB /* TouchVisualizer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TouchVisualizer.xcconfig; sourceTree = "<group>"; };
 		E3428D834FFEECC083594BDB801435A3 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E8FD1522BAF9AB40CDEE436868B4393C /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		E99CD756DCE4B0DCB77C8D876AAC0525 /* DSColorPickerViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSColorPickerViewDataSource.swift; path = DSColorPicker/Protocols/DSColorPickerViewDataSource.swift; sourceTree = "<group>"; };
 		ED37FFEC664FFA3EA2F6DDBE7E71FB29 /* TouchVisualizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TouchVisualizer-dummy.m"; sourceTree = "<group>"; };
-		FDB145E11ADEF9B4B052A3261038DA52 /* GridColorPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridColorPickerView.swift; path = DSColorPicker/Pickers/GridColorPickerView.swift; sourceTree = "<group>"; };
-		FFAC574186155E586069802D86C61429 /* ColorPickerViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerViewType.swift; path = DSColorPicker/Protocols/ColorPickerViewType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,18 +117,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00AB75E2CF36CFC3DEB537626DCF13E8 /* DSColorPicker */ = {
+		09CB20178F2ADC51B35920D2C4142150 /* DSColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				3DF94DAA4ABA4CC249AB60666574B8D5 /* CircleColorPickerView.swift */,
-				6BD1145FC8849FA48D8F9D92834D85C6 /* ColorPickerViewDataSource.swift */,
-				161C248298892DDA5F71600B4CC5C6EA /* ColorPickerViewDelegate.swift */,
-				FFAC574186155E586069802D86C61429 /* ColorPickerViewType.swift */,
-				FDB145E11ADEF9B4B052A3261038DA52 /* GridColorPickerView.swift */,
-				D4B21FD9F9480ADD0B5EA465E57D8B8E /* GridColorPickerViewDataSource.swift */,
-				7C0AD9D211B62AC65ACA1E8B7C87FC03 /* Helpers.swift */,
-				4E0F8BA34FB4E44119B8255CB51F8A7A /* WedgeLayer.swift */,
-				F8A1D37165B261AED5B5497272F6F1C4 /* Support Files */,
+				129B01D71216BAE413ECA7D95868BAB9 /* DSCircleColorPickerView.swift */,
+				E99CD756DCE4B0DCB77C8D876AAC0525 /* DSColorPickerViewDataSource.swift */,
+				A7AF55B86BBCAD30FF42FC6C3B295C76 /* DSColorPickerViewDelegate.swift */,
+				163066DFDAB91648CD7C19CF69D1B993 /* DSColorPickerViewType.swift */,
+				7A6C22A2623C0C36A02C4CC999669543 /* DSGridColorPickerView.swift */,
+				205A307891DC615D4EF99D995868CB12 /* DSGridColorPickerViewDataSource.swift */,
+				BDDDD7E2ED77C9AE3F614E5707D74875 /* Helpers.swift */,
+				A14B902CD966AE864599BF2AD8AA33C5 /* WedgeLayer.swift */,
+				DF61724F6F0E934452D6EF9341EC16AE /* Support Files */,
 			);
 			name = DSColorPicker;
 			path = DSColorPicker;
@@ -137,7 +137,7 @@
 		2E2C6F010DEE2B79585BA2DCB8B8E0F0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				00AB75E2CF36CFC3DEB537626DCF13E8 /* DSColorPicker */,
+				09CB20178F2ADC51B35920D2C4142150 /* DSColorPicker */,
 				52F5E3C67753AB395BC2A7CBDD9E1970 /* TouchVisualizer */,
 			);
 			name = Pods;
@@ -233,15 +233,15 @@
 			path = "../Target Support Files/TouchVisualizer";
 			sourceTree = "<group>";
 		};
-		F8A1D37165B261AED5B5497272F6F1C4 /* Support Files */ = {
+		DF61724F6F0E934452D6EF9341EC16AE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BA1548F713055EB08E671A3EA88C30BB /* DSColorPicker.modulemap */,
-				68E227E3A0BBEA16DBE4387C582AB685 /* DSColorPicker.xcconfig */,
-				14A88588AB88F7D725600336BB34C6C2 /* DSColorPicker-dummy.m */,
-				C30385E67BD3AFBF23E65A621C00E3D8 /* DSColorPicker-prefix.pch */,
-				C9E8E16F20807C46658C67A098A25D80 /* DSColorPicker-umbrella.h */,
-				B9E0196E5870CCFA3B2FE51835C94762 /* Info.plist */,
+				4507DE1271BF20BCFE8AD984B6E963AB /* DSColorPicker.modulemap */,
+				3E463B8D2B505425025A8F80856B6896 /* DSColorPicker.xcconfig */,
+				D47D4A7D8377A15B90FE4B465CB2F8AF /* DSColorPicker-dummy.m */,
+				6AA31393A6BBE7C465EABF00C3497BB0 /* DSColorPicker-prefix.pch */,
+				92296C24B5CC90396479BAD515976D8C /* DSColorPicker-umbrella.h */,
+				A3EBC33A927357C53CB883FC93B23306 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DSColorPicker";
@@ -298,7 +298,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1A332E8CAB5E6D05D499ADF5989AEFB /* Build configuration list for PBXNativeTarget "DSColorPicker" */;
 			buildPhases = (
-				2A374252A753CF82CA6243509ACF007F /* Sources */,
+				FBA67C4259F3089BA83939A10BE0A3D7 /* Sources */,
 				04DBF86FCA241AEFF212D00EA623334D /* Frameworks */,
 				EC1D29C5F73E3BF4FC488671844C75C5 /* Headers */,
 			);
@@ -367,19 +367,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A374252A753CF82CA6243509ACF007F /* Sources */ = {
+		FBA67C4259F3089BA83939A10BE0A3D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E467DDF4546794ECEAD4E9A510FDF4A /* CircleColorPickerView.swift in Sources */,
-				57F84FB54284EC54669956B489FD2F5E /* ColorPickerViewDataSource.swift in Sources */,
-				36E896D30476D55ABB9131584233EA24 /* ColorPickerViewDelegate.swift in Sources */,
-				00F473F0CBD754AE6F3BE3A3268FB0CE /* ColorPickerViewType.swift in Sources */,
-				1C0E6C625AF6786E517BA9B533E3405A /* DSColorPicker-dummy.m in Sources */,
-				798919CD8A55FEC8EEA9C19291D56593 /* GridColorPickerView.swift in Sources */,
-				02A8F40C8B50C145262B7A0E6C0A537A /* GridColorPickerViewDataSource.swift in Sources */,
-				49357F84D93D464ADCC51E1A88921A77 /* Helpers.swift in Sources */,
-				4975D556190159249C5846A41DCBB3AB /* WedgeLayer.swift in Sources */,
+				9A3EDD1CCF8F80200A40E4AFD48A3BB4 /* DSCircleColorPickerView.swift in Sources */,
+				1731F53A032D85E57D0F7376EFBBA06B /* DSColorPicker-dummy.m in Sources */,
+				93BFAD6AE6F1BAF3683C18A69422B355 /* DSColorPickerViewDataSource.swift in Sources */,
+				DBB1D0328E4126549170438960C6D164 /* DSColorPickerViewDelegate.swift in Sources */,
+				CF5037A4032179F87ABAD846641A9BB1 /* DSColorPickerViewType.swift in Sources */,
+				E3C71365DCA9F2E1427EB1F02829D0BE /* DSGridColorPickerView.swift in Sources */,
+				622E6BAF76A39912304B702207317B12 /* DSGridColorPickerViewDataSource.swift in Sources */,
+				A28FB056353CF4F3FC4B4D5229E6B9BD /* Helpers.swift in Sources */,
+				5A68AB5E3E89B554842148305E6ED1A3 /* WedgeLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,7 +555,7 @@
 		};
 		9A26120DD3C36C880E4166D264E7E0A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68E227E3A0BBEA16DBE4387C582AB685 /* DSColorPicker.xcconfig */;
+			baseConfigurationReference = 3E463B8D2B505425025A8F80856B6896 /* DSColorPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -725,7 +725,7 @@
 		};
 		FC2D140E696D734F295842A375287398 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68E227E3A0BBEA16DBE4387C582AB685 /* DSColorPicker.xcconfig */;
+			baseConfigurationReference = 3E463B8D2B505425025A8F80856B6896 /* DSColorPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

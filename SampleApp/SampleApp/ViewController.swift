@@ -12,8 +12,8 @@ import TouchVisualizer
 
 class ViewController: UIViewController {
     
-    private var gridColorPickerView: GridColorPickerView?
-    private var circleColorPickerView: CircleColorPickerView?
+    private var gridColorPickerView: DSGridColorPickerView?
+    private var circleColorPickerView: DSCircleColorPickerView?
     
     private let colorPickerSegmentedControl: UISegmentedControl = {
         let control = UISegmentedControl(items: ["Circle", "Grid"])
@@ -40,8 +40,8 @@ class ViewController: UIViewController {
         numberOfColorsPickerView.delegate = self
         numberOfColorsPickerView.selectRow(15, inComponent: 0, animated: false)
         
-        gridColorPickerView = GridColorPickerView(frame: .zero, delegate: self, dataSource: self)
-        circleColorPickerView = CircleColorPickerView(frame: .zero, delegate: self, dataSource: self)
+        gridColorPickerView = DSGridColorPickerView(frame: .zero, delegate: self, dataSource: self)
+        circleColorPickerView = DSCircleColorPickerView(frame: .zero, delegate: self, dataSource: self)
         gridColorPickerView?.backgroundColor = UIColor.white
         circleColorPickerView?.backgroundColor = UIColor.white
         
@@ -87,13 +87,13 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController: ColorPickerViewDelegate {
-    func didSelect(color: UIColor, pickerView: ColorPickerViewType) {
+extension ViewController: DSColorPickerViewDelegate {
+    func didSelect(color: UIColor, pickerView: DSColorPickerViewType) {
         view.backgroundColor = color
     }
 }
 
-extension ViewController: ColorPickerViewDataSource {
+extension ViewController: DSColorPickerViewDataSource {
     var numberOfColors: Int {
         return numberOfColorsPickerView.selectedRow(inComponent: 0)
     }
@@ -106,7 +106,7 @@ extension ViewController: ColorPickerViewDataSource {
     }
 }
 
-extension ViewController: GridColorPickerViewDataSource {
+extension ViewController: DSGridColorPickerViewDataSource {
     var maxColumns: Int {
         return 4
     }

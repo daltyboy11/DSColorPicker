@@ -10,7 +10,7 @@ import Foundation
 
 /// Adopt this protocol to be a data source object for a GridColorPickerView
 ///
-public protocol GridColorPickerViewDataSource: ColorPickerViewDataSource {
+public protocol DSGridColorPickerViewDataSource: DSColorPickerViewDataSource {
     /// The maximum number of colors per column in the grid.
     ///
     var maxColumns: Int { get }

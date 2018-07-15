@@ -11,7 +11,7 @@ import CoreGraphics.CGColor
 
 /// Adopt this protocol to be a data source object for a CircleColorPickerView
 ///
-public protocol ColorPickerViewDataSource: AnyObject {
+public protocol DSColorPickerViewDataSource: AnyObject {
     /// The number of colors to be displayed by the view.
     ///
     var numberOfColors: Int { get }

@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-public protocol ColorPickerViewType {
+public protocol DSColorPickerViewType {
     /// The picker's delegate object. Use this object to handle user interaction with the color picker.
     ///
-    var delegate: ColorPickerViewDelegate? { get set }
+    var delegate: DSColorPickerViewDelegate? { get set }
     
     /// Call this method when you are ready to show the picker.
     ///
@@ -30,10 +30,10 @@ public protocol ColorPickerViewType {
     func reloadPicker(animated: Bool, completion: @escaping () -> (Void))
 }
 
-public protocol GridColorPickerViewType: ColorPickerViewType {
-    var dataSource: GridColorPickerViewDataSource? { get set }
+public protocol DSGridColorPickerViewType: DSColorPickerViewType {
+    var dataSource: DSGridColorPickerViewDataSource? { get set }
 }
 
-public protocol CircleColorPickerViewType: ColorPickerViewType {
-    var dataSource: ColorPickerViewDataSource? { get set }
+public protocol DSCircleColorPickerViewType: DSColorPickerViewType {
+    var dataSource: DSColorPickerViewDataSource? { get set }
 }

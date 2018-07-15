@@ -1,5 +1,5 @@
 PODS:
-  - DSColorPicker (1.0.0)
+  - DSColorPicker (1.0.1)
   - TouchVisualizer (3.0.2)
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ SPEC REPOS:
     - TouchVisualizer
 
 SPEC CHECKSUMS:
-  DSColorPicker: cf38e9f42f6e4ab5f5bacbafe52b4d6e8fe4261c
+  DSColorPicker: e97d6553553719b04fce84121e3c4c14cf213604
   TouchVisualizer: dfdb77c26f1efc58d9980596742de6cf115ea37e
 
 PODFILE CHECKSUM: e997e57b98cfde725e4a0e7be0210f0795bca05a
