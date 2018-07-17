@@ -40,17 +40,20 @@ class ViewController: UIViewController {
         numberOfColorsPickerView.delegate = self
         numberOfColorsPickerView.selectRow(15, inComponent: 0, animated: false)
         
+        colorPickerSegmentedControl.selectedSegmentIndex = 0
+        colorPickerSegmentedControl.addTarget(self, action: #selector(didPickColorPicker(_:)), for: .valueChanged)
+        
+        view.addSubview(colorPickerSegmentedControl)
+        view.addSubview(numberOfColorsPickerView)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         gridColorPickerView = DSGridColorPickerView(frame: .zero, delegate: self, dataSource: self)
         circleColorPickerView = DSCircleColorPickerView(frame: .zero, delegate: self, dataSource: self)
         gridColorPickerView?.backgroundColor = UIColor.white
         circleColorPickerView?.backgroundColor = UIColor.white
-        
-        colorPickerSegmentedControl.selectedSegmentIndex = 0
-        colorPickerSegmentedControl.addTarget(self, action: #selector(didPickColorPicker(_:)), for: .valueChanged)
-        
         view.addSubview(circleColorPickerView!)
-        view.addSubview(colorPickerSegmentedControl)
-        view.addSubview(numberOfColorsPickerView)
+        circleColorPickerView?.show()
     }
     
     override func viewWillLayoutSubviews() {
