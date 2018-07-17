@@ -75,3 +75,5 @@ extension ViewController: DSColorPickerViewDataSource {
 To provide data to a `DSGridColorPickerView`, adopt the `DSGridColorPickerViewDataSource` protocol. This data source has the same requirements as the `DSColorPickerViewDataSource`, with the addition of `maxColumns`, which specifies the maximum allowable number of columns in the grid.
 
 Example - Adding colors one by one to the picker with `maxColumns` set to `4`:
+
+![Up to 4 colors per row](https://github.com/daltyboy11/DSColorPicker/blob/master/Demo%20Videos/maxColumns.gif)
